@@ -1,0 +1,99 @@
+@import "./variable";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $Very-Dark-Blue;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-family;
+  padding: 2rem;
+}
+.container {
+  background-color: $Dark-Blue;
+  padding: 2rem;
+  max-width: 400px;
+  border-radius: 20px;
+}
+.star {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: $more-light-grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.rating_container h1 {
+  color: $White;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.your_rating {
+  color: $White;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.rating_value {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.rating_value li {
+  list-style-type: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: $more-light-grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $White;
+}
+.rating_value li:hover,
+.rating_value li:active {
+  background-color: $Orange;
+}
+.btn {
+  background-color: $Orange;
+  width: 95%;
+  padding: 1rem;
+  margin: 1rem auto;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: $White;
+}
+.response_container {
+  text-align: center;
+  display: none;
+}
+.response_container img {
+  margin-bottom: 1rem;
+}
+
+.response_container h2 {
+  color: $White;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.response_container p {
+  @extend .your_rating;
+  background-color: $more-light-grey;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.selected {
+  background-color: $Orange;
+}
