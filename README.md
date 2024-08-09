@@ -31,11 +31,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- ![mobile rating](https://github.com/G-Gakii/rating-component/blob/main/images/screenshot/mobile-rating.png)
+
+- ![mobile response](https://github.com/G-Gakii/rating-component/blob/main/images/screenshot/mobile-thankyou.png)
+
+- ![desktop rating](https://github.com/G-Gakii/rating-component/blob/main/images/screenshot/desktop-rating.png)
+
+- ![desktop response](https://github.com/G-Gakii/rating-component/blob/main/images/screenshot/desktop-thankyou.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://rating-component-blond.vercel.app)
 - Live Site URL: (http://127.0.0.1:5500/index.html)
 
 ## My process
