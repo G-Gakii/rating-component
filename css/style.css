@@ -40,7 +40,8 @@ body {
   text-align: center;
 }
 
-.your_rating, .response_container p {
+.your_rating,
+.response_container p {
   color: hsl(0, 0%, 100%);
   font-size: 0.9rem;
   margin-bottom: 1rem;
@@ -67,6 +68,11 @@ body {
 
 .rating_value li:hover,
 .rating_value li:active {
+  background-color: hsl(25, 97%, 53%);
+}
+/* Add selector to apply selected status, required ".rating_value" due to 
+css specificity conflict with line 57 */
+.rating_value .active_value {
   background-color: hsl(25, 97%, 53%);
 }
 
@@ -109,4 +115,4 @@ body {
 
 .selected {
   background-color: hsl(25, 97%, 53%);
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
